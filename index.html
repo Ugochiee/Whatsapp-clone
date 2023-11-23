@@ -12,8 +12,8 @@
   </head>
 
   <body>
-    <nav class="">
-      <div class="nav d-flex">
+    <nav class="nav">
+      <div class="main-nav-links">
         <div class="logo">
           <img src="./img/logo.png" alt="logo" class="logo" />
         </div>
@@ -21,7 +21,7 @@
         <!-- <div class="nav-links"> -->
         <ul class="nav-links d-flex">
           <li>
-            <a href="#" class="text-dark features">
+            <a href="#" class="text-dark" id="features">
               Features <i class="fa-solid fa-chevron-down"></i>
             </a>
           </li>
@@ -49,6 +49,18 @@
         <button class="btn">
           <span class="btn-span"> Download</span>
           <i class="fa-solid fa-download fa-lg"></i>
+        </button>
+      </div>
+
+      <div
+        class="d-flex justify-content-center justify-content-around mobile-nav"
+      >
+        <i class="fa-solid fa-bars" style="color: #080808"></i>
+
+        <img src="./img/logo.png" alt="WhatsApp logo" class="logo" />
+
+        <button>
+          <i class="fa-solid fa-download" style="color: #121212"></i>
         </button>
       </div>
 
@@ -118,6 +130,8 @@
           <i class="fa-solid fa-arrow-right mt-2"></i>
         </div>
       </div>
+
+      <!-- mobile nav -->
     </nav>
 
     <!-- <div class="overlay-text">
@@ -135,6 +149,6 @@
         world.
       </p>
     </div> -->
-    <script src="assets/js/script.js"></script>
+    <!-- <script src="assets/js/script.js"></script> -->
   </body>
 </html>

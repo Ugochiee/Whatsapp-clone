@@ -106,8 +106,8 @@ body {
     height: 100px;
     /* max-height: auto; */
     width: 100%;
-    position: fixed;
-    padding: 20px 20px 20px 20px;
+    /* position: fixed; */
+    padding: 20px 30px 20px 30px;
     /* display: none; */
 }
 
@@ -149,4 +149,22 @@ a {
     text-decoration-color: #25d366;
     text-underline-offset: 0.2em;
     text-decoration-thickness: 2px;
+}
+
+.container {
+    padding: 20px 30px 20px 30px;
+}
+
+.hero-section {
+    background-image: url('../img/hug.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+    border-radius: 10px;
+    min-height: 125vh;
+}
+
+.hero-section-container {
+    padding: 100px;
 }

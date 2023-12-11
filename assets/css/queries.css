@@ -1,0 +1,15 @@
+@media screen and (max-width: 1200px) {
+    .main-nav-links {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .mobile-nav-logo {
+        display: none;
+    }
+}

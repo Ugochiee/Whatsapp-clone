@@ -7,6 +7,7 @@
 
 body {
     background-color: #fcf5eb;
+    overflow: hidden;
     /* background-color: #ffffff; */
 }
 
@@ -70,9 +71,9 @@ body {
     display: flex;
 }
 
-.justify-content-between {
+/* .justify-content-between {
     justify-content: space-between;
-}
+} */
 
 .btn {
     background-color: rgb(14, 175, 68);
@@ -119,7 +120,7 @@ body {
     /* max-height: auto; */
     width: 100%;
     height: 64px;
-    position: fixed;
+    /* position: fixed; */
     /* top right bottom left */
     padding: 20px 20px 20px 20px;
     /* display: flex; */
@@ -157,14 +158,41 @@ a {
 
 .hero-section {
     background-image: url('../img/hug.png');
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: content-box;
+    background-size: contain;
+    /* background-clip: content-box; */
     border-radius: 10px;
     min-height: 125vh;
 }
 
 .hero-section-container {
     padding: 100px;
+}
+
+.hero-images {
+    flex-basis: 50%;
+}
+
+.text-white {
+    font-size: 70px;
+    letter-spacing: -0.02em;
+    line-height: 1;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p-text-white {
+    font-size: 16px;
+    /* letter-spacing: -0.03em; */
+    line-height: 22px;
+    color: white;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.first-section {
+    /* display: none; */
+    overflow-x: hidden;
+    min-height: 80vh;
 }
